@@ -96,24 +96,25 @@ http://taskmanagement-btech10294-22-mahli.s3-website.eu-north-1.amazonaws.com/da
 Use **http://** (not https://) in the browser address bar.
 
 
-## 🏗️ Tech Stack                                                                                                                
+## 📁 Project Structure
+
 task/
 ├── backend/
-│   ├── app/
-│   │   ├── api/          # API Routes (auth, tasks, users)
-│   │   ├── core/         # Config, DB connection, Email setup
-│   │   ├── models/       # Pydantic Schemas
-│   │   ├── services/     # Business Logic
-│   │   └── main.py       # FastAPI entry point
-│   ├── .env              # Environment Variables
-│   └── requirements.txt
+│ ├── app/
+│ │ ├── api/ # API Routes (auth, tasks, users)
+│ │ ├── core/ # Config, DB connection, Email setup
+│ │ ├── models/ # Pydantic Schemas
+│ │ ├── services/ # Business Logic
+│ │ └── main.py # FastAPI entry point
+│ ├── .env # Environment Variables
+│ └── requirements.txt
 └── frontend/
-    ├── src/
-    │   ├── components/   # React Components (Navbar, Board, Cards)
-    │   ├── services/     # API Calls (Axios)
-    │   └── App.jsx
-    ├── dist/             # Production Build (for S3)
-    └── vite.config.js
+├── src/
+│ ├── components/ # React Components (Navbar, Board, Cards)
+│ ├── services/ # API Calls (Axios)
+│ └── App.jsx
+├── dist/ # Production Build (for S3)
+└── vite.config.js
 
 
 Setup & Deployment Guide
@@ -198,5 +199,6 @@ onTouchEnd={handleTouchEnd}
 └─────────────────┘    └──────────────────┘    └────────────────────┘
          │                       │
          └───────────────────────┼── Gmail SMTP (Email Verification)
+
 
 
