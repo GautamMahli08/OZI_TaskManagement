@@ -8,52 +8,77 @@ DEMO LINK : http://taskmanagement-btech10294-22-mahli.s3-website.eu-north-1.amaz
 🎯 Key Features
 🔐 Authentication & User Management
 
-1.User Registration
-2.Login & Logout
-3.Email Verification (Gmail SMTP) --- Intentionally Added
-4.JWT-based authentication
-5.Update & Delete Profile
-6.Secure protected routes
+User Registration
+
+Login & Logout
+
+Email Verification (Gmail SMTP)
+
+JWT-based authentication
+
+Update & Delete Profile
+
+Secure protected routes
 
 👥 Role-Based Access Control
 
-Admin : Can view and manage all users and tasks
-User : Can manage only their own tasks
+Admin
+
+Can view and manage all users and tasks
+
+User
+
+Can manage only their own tasks
 
 🗂️ Task Management (CRUD)
 
-1.Create Task
-2.Read Task (User-specific)
-3.Update Task
-4.Delete Task
+Create Task
+
+Read Task (User-specific)
+
+Update Task
+
+Delete Task
+
 Filter tasks by status (Pending / In Progress / Completed)
 
 🧩 Kanban Board
 
-1.Three columns:
-    Pending
-    In Progress
-    Completed
-2.Drag & Drop support (Desktop)
-3.Status automatically updates in backend
+Three columns:
+
+Pending
+
+In Progress
+
+Completed
+
+Drag & Drop support (Desktop)
+
+Status automatically updates in backend
 
 📧 Email Verification
 
-1.New users receive verification email
-2.Account becomes active only after verification
+New users receive verification email
+
+Account becomes active only after verification
 
 📱 Responsive Design
 
-1.Works on Desktop, Tablet, and Mobile
-2.Clean, minimal UI using Tailwind CSS
+Works on Desktop, Tablet, and Mobile
+
+Clean, minimal UI using Tailwind CSS
 
 ☁️ Production Ready
 
-1.Backend deployed on AWS EC2
-2.Frontend hosted on AWS S3 (Static Website)
-3.Database on MongoDB Atlas
-4.Environment variables managed securely
-5.Systemd service for backend (24/7 uptime)
+Backend deployed on AWS EC2
+
+Frontend hosted on AWS S3 (Static Website)
+
+Database on MongoDB Atlas
+
+Environment variables managed securely
+
+Systemd service for backend (24/7 uptime)
 
 
 | Layer        | Technology                                |
