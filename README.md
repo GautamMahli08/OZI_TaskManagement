@@ -204,13 +204,29 @@ onTouchEnd={handleTouchEnd}
 
 ```
 
-📈 Architecture Diagram
-┌─────────────────┐    ┌──────────────────┐    ┌────────────────────┐
-│   Frontend      │───▶│    Backend       │───▶│   MongoDB Atlas    │
-│   (S3 Static)   │    │  (FastAPI EC2)   │    │ task_management_db │
-└─────────────────┘    └──────────────────┘    └────────────────────┘
-         │                       │
-         └───────────────────────┼── Gmail SMTP (Email Verification)
+📸 Screenshots
+
+## 1.Login Page
+<img width="3258" height="1716" alt="taskmanagement-btech10294-22-mahli s3-website eu-north-1 amazonaws com_login (1)" src="https://github.com/user-attachments/assets/11cee652-c5a1-4c2c-9697-507428747ffd" />
+
+## 2. Register Page
+<img width="3258" height="1748" alt="taskmanagement-btech10294-22-mahli s3-website eu-north-1 amazonaws com_login (2)" src="https://github.com/user-attachments/assets/e7ae61e0-ad76-4866-8bff-b8bacdd1049d" />
+
+## 3. Dashboard With Filter
+<img width="3258" height="1782" alt="taskmanagement-btech10294-22-mahli s3-website eu-north-1 amazonaws com_login (3)" src="https://github.com/user-attachments/assets/8ceff47a-a4f8-463e-8748-68a48840d44b" />
+
+## 4. Profile 
+<img width="3258" height="1716" alt="taskmanagement-btech10294-22-mahli s3-website eu-north-1 amazonaws com_login (5)" src="https://github.com/user-attachments/assets/76303d65-af55-4100-9f5b-4b401ad272e1" />
+
+## 5.Create Task
+<img width="3258" height="1782" alt="taskmanagement-btech10294-22-mahli s3-website eu-north-1 amazonaws com_login (6)" src="https://github.com/user-attachments/assets/bc365e35-78fd-4d85-8775-bb911e3c9e95" />
+
+
+## Author
+Gautam Kumar Mahli
+Roll Number: BTECH/10294/22
+
+
 
 
 
