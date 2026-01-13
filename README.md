@@ -117,9 +117,14 @@ task/
 └── vite.config.js
 
 
-Setup & Deployment Guide
 
-Backend (AWS EC2)
+---
+
+## 🔧 Setup & Deployment Guide
+
+### Backend (AWS EC2)
+
+```bash
 # 1. SSH into EC2
 ssh -i taskflow-key.pem ubuntu@13.51.156.213
 
