@@ -97,7 +97,7 @@ Use **http://** (not https://) in the browser address bar.
 
 
 ## 📁 Project Structure
-
+```bash
 task/
 ├── backend/
 │   ├── app/
