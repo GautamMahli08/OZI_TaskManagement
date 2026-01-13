@@ -169,15 +169,16 @@ Static Website Hosting: ON
 Bucket Policy: Public Read Access
 
 
-| Method | Endpoint           | Description        |
-| ------ | ------------------ | ------------------ |
-| POST   | /api/auth/register | User Registration  |
-| POST   | /api/auth/login    | User Login         |
-| GET    | /api/auth/verify   | Email Verification |
-| GET    | /api/tasks         | Get All Tasks      |
-| POST   | /api/tasks         | Create Task        |
-| PUT    | /api/tasks/{id}    | Update Task        |
-| DELETE | /api/tasks/{id}    | Delete Task        |
+| Method | Endpoint                     | Description        |
+| ------ | ---------------------------- | ------------------ |
+| POST   | /api/auth/register           | User Registration  |
+| POST   | /api/auth/login              | User Login         |
+| GET    | /api/auth/verify             | Email Verification |
+| GET    | /api/tasks                   | Get All Tasks      |
+| POST   | /api/tasks                   | Create Task        |
+| PUT    | /api/tasks/{id}              | Update Task        |
+| DELETE | /api/tasks/{id}              | Delete Task        |
+| GET    | /api/tasks?status=${status}  | Filter             |
 
 
 📄 Full API Docs:
