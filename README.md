@@ -28,12 +28,7 @@ http://taskmanagement-btech10294-22-mahli.s3-website.eu-north-1.amazonaws.com/da
 - Update & Delete Profile  
 - Secure Protected Routes  
 
----
-
-### 👥 Role-Based Access Control
-
-**Admin**
-- Can view and manage all users and tasks  
+---  
 
 **User**
 - Can manage only their own tasks  
