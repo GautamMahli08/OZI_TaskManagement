@@ -85,7 +85,7 @@ http://taskmanagement-btech10294-22-mahli.s3-website.eu-north-1.amazonaws.com/da
 | **Auth**     | JWT + Email Verification                  |
 | **Email**    | Gmail SMTP                                |
 | **Hosting**  | AWS EC2, S3, CloudFront                   |
-| **DevOps**   | Systemd, Nginx (optional), Docker (ready) |
+
 
 ---
 
